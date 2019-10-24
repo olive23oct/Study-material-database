@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="CEE7D66B-69C4-F463-4741-BD14D8A3CA12" mainViewID="F1B38F70-CA52-831E-3846-D610B9F70CB9">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:42:26 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>madang</connName>
+<connUser>MADANG</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

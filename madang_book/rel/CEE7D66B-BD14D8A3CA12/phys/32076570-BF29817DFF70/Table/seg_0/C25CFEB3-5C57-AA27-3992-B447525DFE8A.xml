@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BOOK" directorySegmentName="seg_0" id="C25CFEB3-5C57-AA27-3992-B447525DFE8A">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:43:24 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+<schemaObject>EF56B0C9-78C6-DEBD-2F14-EF53D7562F8F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B62E143C-B7FA-7F4E-9232-13C379011DCD</segment>
+<tableSpace>639F4282-6731-DB48-D98E-8C7CDA0EF90A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BOOKID" id="13BEDD65-A26E-4A1F-B82A-4DEF6E260B6D">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:43:24 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRICE" id="5F81DBDC-B922-69F1-D049-1CCBCE220106">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:43:24 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUBLISHER" id="70E4BAF8-C63F-4DF5-C810-4AFBC938C244">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:43:24 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKNAME" id="88A2EAFB-BA55-CFDB-C29D-663F8F300024">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:43:24 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BOOK_PK" id="FDF5E3CC-C948-49D6-EAE5-BF7B478C2EBC">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:43:25 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+<schemaObject>EF56B0C9-78C6-DEBD-2F14-EF53D7562F8F</schemaObject>
+<segment>9758C6C9-3A86-1877-0E75-93747BD5F386</segment>
+<tableSpace>639F4282-6731-DB48-D98E-8C7CDA0EF90A</tableSpace>
+<indexSegment>9758C6C9-3A86-1877-0E75-93747BD5F386</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

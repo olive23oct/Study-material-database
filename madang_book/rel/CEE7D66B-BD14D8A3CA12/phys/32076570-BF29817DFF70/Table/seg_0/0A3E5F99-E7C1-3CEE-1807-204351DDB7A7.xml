@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORDERS" directorySegmentName="seg_0" id="0A3E5F99-E7C1-3CEE-1807-204351DDB7A7">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:43:24 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+<schemaObject>EF56B0C9-78C6-DEBD-2F14-EF53D7562F8F</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>B62E143C-B7FA-7F4E-9232-13C379011DCD</segment>
+<tableSpace>639F4282-6731-DB48-D98E-8C7CDA0EF90A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CUSTID" id="34853F2F-C6BA-6EAF-71A5-78DFE470D288">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:43:24 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDERDATE" id="B8200168-2084-9C4C-FAB6-595568C50703">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:43:24 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDERID" id="BD8A3C17-5004-6C67-FA05-23244D211A02">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:43:24 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SALEPRICE" id="D330E364-7F81-E973-D60E-8E2917929649">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:43:24 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BOOKID" id="F0701356-80D3-1D54-BE3F-E8EF6971F205">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:43:24 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007000" id="51542068-858A-A796-A768-98E1CB6B576C">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:43:25 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007001" id="DC759FFF-1A80-4574-3444-ECDF3AE03E55">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:43:25 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDERS_PK" id="159D4830-9E7B-05F4-20F1-79997ECFD8A3">
+<createdBy>HB04-23</createdBy>
+<createdTime>2019-03-08 00:43:25 UTC</createdTime>
+<ownerDesignName>madang_book</ownerDesignName>
+<schemaObject>EF56B0C9-78C6-DEBD-2F14-EF53D7562F8F</schemaObject>
+<segment>9758C6C9-3A86-1877-0E75-93747BD5F386</segment>
+<tableSpace>639F4282-6731-DB48-D98E-8C7CDA0EF90A</tableSpace>
+<indexSegment>9758C6C9-3A86-1877-0E75-93747BD5F386</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
