@@ -1,0 +1,5 @@
+--(한줄주석) Http port 확인
+SELECT DBMS_XDB.GETHTTPPORT() FROM DUAL;
+
+--8080 -> 8090 변경처리
+exec DBMS_XDB.SETHTTPPORT(8090);
